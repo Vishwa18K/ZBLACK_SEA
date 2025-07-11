@@ -1,12 +1,13 @@
 Commands to build sea app (mac os):
 
 1.) node --experimental-sea-config sea-config.json 
+
 2.) Create a copy of the node executable and name it according to your needs:
 
 On systems other than Windows:
 cp $(command -v node) hello 
-3.) Remove the signature of the binary (macOS and Windows only):
 
+3.) Remove the signature of the binary (macOS and Windows only):
 On macOS:
 codesign --remove-signature hello 
 
